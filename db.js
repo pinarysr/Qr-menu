@@ -1,0 +1,106 @@
+export const menu = [
+    {
+      id: 1,
+      title: 'Pankek',
+      category: 'breakfast',
+      price: 15.99,
+      img: './images/item-1.jpeg',
+      desc: 'Sütün lezzeti bu pankeklerde! Yumuşacık bir dokuya sahip süzme pankeklerimizle gününüze tat katın.',
+    },
+    {
+      id: 2,
+      title: 'İkili Hamburger',
+      category: 'lunch',
+      price: 13.99,
+      img: './images/item-2.jpeg',
+      desc: 'Hamburgerimiz, enfes lezzeti ve doyurucu yapısıyla yemek için mükemmel bir tercih!',
+    },
+    {
+      id: 3,
+      title: 'Milkshake',
+      category: 'shakes',
+      price: 6.99,
+      img: './images/item-3.jpeg',
+      desc: 'Efsanevi bir lezzet sizi bekliyor! Milkshake imizle kendinizi şımartın ve tatlı bir mola verin.',
+    },
+    {
+      id: 4,
+      title: 'Ekmeküstü Yumurta',
+      category: 'breakfast',
+      price: 20.99,
+      img: './images/item-4.jpeg',
+      desc: 'Kahvaltıların vazgeçilmez lezzeti artık burada! Tamamen doğal malzemelerle hazırlanıp, sizleri enfes bir lezzet şölenine davet ediyor.',
+    },
+    {
+      id: 5,
+      title: 'Yumurtalı Hamburger',
+      category: 'lunch',
+      price: 22.99,
+      img: './images/item-5.jpeg',
+      desc: 'İki lezzetin muhteşem birleşimi',
+    },
+  
+    {
+      id: 6,
+      title: 'Oreo Hayali',
+      category: 'shakes',
+      price: 8.99,
+      img: './images/item-6.jpeg',
+      desc: 'Oreo sevenler için muhteşem bir lezzet! Oreo Hayali sizi tatlı bir dünyaya götürüyor. Lezzetine doyum olmaz!',
+    },
+    {
+      id: 7,
+      title: 'Pastırmalı Ekmek',
+      category: 'breakfast',
+      price: 13.99,
+      img: './images/item-7.jpeg',
+      desc: 'Kendi yaptığımız tazecik ekmekleri pastırma ve yumurta ile buluşturuyoruz',
+    },
+    {
+      id: 8,
+      title: 'Klasik Hamburger',
+      category: 'lunch',
+      price: 12.99,
+      img: './images/item-8.jpeg',
+      desc: 'Amerikan mutfağının klasik lezzetleriyle hazırlanan bu hamburger, tadına doyum olmayan bir deneyim sunuyor. Üstelik uygun fiyatıyla da tercih sebebi!',
+    },
+    {
+      id: 9,
+      title: 'Dev milkshake',
+      category: 'shakes',
+      price: 16.99,
+      img: './images/item-9.jpeg',
+      desc: 'Canınızın sıkıldığı anlarda sizi yalnız bırakmayacak lezzetli bir milkshake! Arkadaşınız ile tatlı bir kaçamak yapın.',
+    },
+    {
+      id: 10,
+      title: 'Biftek',
+      category: 'lunch',
+      price: 22.99,
+      img: './images/item-10.jpeg',
+      desc: 'Bizon etinin eşsiz lezzeti, özel baharatlar ve soslarla birleşiyor. Bizon Bifteği, mükemmel bir seçim!',
+    },
+  ];
+  
+  export const buttonsData = [
+    {
+      id: 1,
+      text: 'Hepsi',
+      value: 'all',
+    },
+    {
+      id: 2,
+      text: 'Kahvaltı',
+      value: 'breakfast',
+    },
+    {
+      id: 3,
+      text: 'Öğle Yemeği',
+      value: 'lunch',
+    },
+    {
+      id: 4,
+      text: 'İçecekler',
+      value: 'shakes',
+    },
+  ];
